@@ -79,7 +79,7 @@ nav ul li a {
  /* Media query for desktop */
 @media only screen and (min-width: 768px) {
     .intro {
-        margin-bottom: 400px; /* Add some bottom margin for scroll space */
+        margin-bottom: 240px; /* Add some bottom margin for scroll space */
     }
 
     .Projects {
