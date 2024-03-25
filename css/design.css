@@ -67,3 +67,14 @@ h2{
     box-sizing: border-box;
     font-size: 14px;
 }
+
+footer {
+    background-color: #e0c5c5;
+    color: rgb(0, 0, 0);
+    padding: 3.5px;
+    text-align: center;
+    clear: both; /* Clear floats */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
