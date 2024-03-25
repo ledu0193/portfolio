@@ -59,17 +59,6 @@ button {
 button:hover {
     background-color: #555;
 }
-/* About me page styles */
-.about-me {
-    text-align: center;
-    padding: 20px;
-}
-
-.about-me img {
-    max-width: 90%; /* Adjust the maximum width as needed */
-    height: auto;
-    margin-bottom: 20px;
-}
 
 /* Media query for desktop */
 @media only screen and (min-width: 768px) {
@@ -78,4 +67,74 @@ button:hover {
         float: right; /* Align the image to the right side */
         margin: 0 0 20px 20px; /* Adjust margin for proper spacing */
     }
+}
+
+/* Form container */
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    float: left; /* Align the form to the left */
+    width: 400px; /* Set width to 400px */
+}
+
+/* Form heading */
+.contact-form h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+/* Submit button */
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px; /* Add some spacing between the form and the button */
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #e0c5c5;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    clear: both; /* Clear floats */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
 }
