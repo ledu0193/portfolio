@@ -1,0 +1,81 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5e5;
+    padding-top: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #e0c5c5;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo styles */
+header img {
+    max-width: 100px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About me page styles */
+.about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me img {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #333;
+    color: rgb(244, 244, 244);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* About me page styles */
+.about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me img {
+    max-width: 90%; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Media query for desktop */
+@media only screen and (min-width: 768px) {
+    .about-me img {
+        max-width: 35%; /* Shrink the image size by 20% */
+        float: right; /* Align the image to the right side */
+        margin: 0 0 20px 20px; /* Adjust margin for proper spacing */
+    }
+}
