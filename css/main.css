@@ -1,0 +1,116 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5e5;
+    padding-top: 20px;
+}
+
+
+/* Media query for desktop */
+@media only screen and (min-width: 768px) {
+    .landing-page img {
+        float: left;
+        width: 700px; /* Adjust the width as needed */
+        margin-right: 20px; /* Adjust as needed */
+        margin-bottom: 20px; /* Ensure proper spacing */
+    }
+
+    .landing-page h2,
+    .landing-page h3,
+    .landing-page p,
+    .landing-page button {
+        margin-left: 180px; /* Adjust based on the width of your image and its right margin */
+        /* This value should be the sum of the width of the image and its right margin */
+    }
+}
+
+/* Header styles */
+header {
+    background-color: #e0c5c5;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo styles */
+header img {
+    max-width: 100px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Landing page styles */
+.landing-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.landing-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Featured content styles */
+.featured-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Featured content images */
+.featured-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #333;
+    color: rgb(244, 244, 244);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Media query for desktop */
+@media only screen and (min-width: 768px) {
+    .featured-content img {
+        width: 45%; /* Adjusted width to fit in a 2x2 grid */
+        margin: 1%; /* Adjusted margin */
+    }
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 767px) {
+    .featured-content img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
