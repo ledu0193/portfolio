@@ -12,7 +12,6 @@ body {
     padding-top: 20px;
 }
 
-
 /* Media query for desktop */
 @media only screen and (min-width: 768px) {
     .landing-page img {
@@ -31,12 +30,13 @@ body {
     }
 }
 
-/* Header styles */
+/* Header styles*/
 header {
     background-color: #e0c5c5;
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
+    width: 100%; /* Full width */
 }
 
 /* Logo styles */
@@ -64,7 +64,7 @@ nav ul li a {
 /* Landing page styles */
 .landing-page {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .landing-page img {
@@ -72,11 +72,19 @@ nav ul li a {
     height: auto;
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        padding-left: 550px; /* Adjust the value as needed */
+    }
+}
+
 /* Add a border between sections */
 .intro {
     border-bottom: 2px solid #ccc; /* Adjust the color and thickness as needed */
 }
- /* Media query for desktop */
+
+/* Media query for desktop */
 @media only screen and (min-width: 768px) {
     .intro {
         margin-bottom: 240px; /* Add some bottom margin for scroll space */
@@ -135,7 +143,7 @@ footer {
     padding: 3.5px;
     text-align: center;
     clear: both; /* Clear floats */
-    position: fixed; /* Fixed position */
-    bottom: 0; /* Stick to the bottom */
+    /* position: fixed; */ /* Remove fixed position */
+    /* bottom: 0; */ /* Remove sticking to the bottom */
     width: 100%; /* Full width */
 }
