@@ -2,7 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f3e5e5;
-    padding-top: 20px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 /* Header styles */
@@ -11,7 +12,9 @@ header {
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
+    width: 100%; /* Full width */
 }
+
 
 /* Logo styles */
 header img {
@@ -45,6 +48,7 @@ nav ul li a {
     max-width: 100%; /* Adjust the maximum width as needed */
     height: auto;
     margin-bottom: 20px;
+    align-self: auto;
 }
 
 /* Button styles */
@@ -123,6 +127,18 @@ button:hover {
     margin-top: 10px; /* Add some spacing between the form and the button */
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.contact-form {
+    width: 80%; 
+    max-width: 400px; 
+}
+
 .contact-form button[type="submit"]:hover {
     background-color: #555;
 }
@@ -131,7 +147,7 @@ button:hover {
 footer {
     background-color: #e0c5c5;
     color: rgb(0, 0, 0);
-    padding: 3.5px;
+    padding: 0.5px;
     text-align: center;
     clear: both; /* Clear floats */
     position: fixed; /* Fixed position */

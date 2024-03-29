@@ -2,15 +2,15 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f3e5e5;
-    padding-top: 20px;
 }
 
-/* Header styles */
+/* Header styles*/
 header {
     background-color: #e0c5c5;
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
+    width: 100%; /* Full width */
 }
 
 /* Logo styles */
@@ -35,9 +35,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-h2{
+h2 {
     text-align: center;
 }
+
 /* Gallery styles */
 .gallery {
     display: flex;
@@ -74,7 +75,5 @@ footer {
     padding: 3.5px;
     text-align: center;
     clear: both; /* Clear floats */
-    position: fixed; /* Fixed position */
-    bottom: 0; /* Stick to the bottom */
     width: 100%; /* Full width */
 }
